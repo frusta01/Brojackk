@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<div  class="l" id="home">
+  <h3>preparado para jogar??</h3>
+  
+  <button id="jogar">JOGAR</button>
+  <button id="cartas">CARTAA</button>
+</div>
+<div id="game" class="l"
+<form>
+  <input type="text" placeholder="Seu nick" id="nome"></input>
+  <input type="number" placeholder="Sua Senha" id="senha"></input>
+</form>
+<button type="submit" id="criarU" >CRIAR</button>
+<button type="submit" id="entrar">ENTRAR</button>
+  <button class="voltar">VOLTAR</button>
+</div>
+
+<div id="cards" class="l">
+  <div class="l" id="LCards">
+    <ul id="lcards"></ul>
+    <button id="CCard">CRIAR Carta</button>
+    <button class="voltar">VOLTAR</button>
+  </div >
+  <div id="ACard" class="l">
+  <form>
+    <ul class="list">
+      <li>
+          <input type="radio" class="radio" name="tipo" value="VERDADE"></input>
+          <label for="VERDADE">Verdade</label>
+            <input type="radio" class="radio" name="tipo" value="DESAFIO"></input>
+            <label for="DESAFIO">Desafio</label>
+      </li>
+    </ul>
+    <input type="text" id="texto" name="texto" placeholder="digite sua pergunta ">
+    
+      <button class="criar" type="submit" id="Criar">CRIAR</button>
+  <button id="LV">VOLTAR</button>
+  </form>
+  </div>
+</div>
+
+<body>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
